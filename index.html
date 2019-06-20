@@ -1,0 +1,479 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="common/css/reveal.css">
+  <link rel="stylesheet" href="common/css/white.css">
+  <link rel="stylesheet" href="common/css/overrides.css">
+  <script src="common/java/print.js"></script>
+  <title>C U R A T E D</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+    
+      <!-- ***
+            * Title Slide 
+            * -->
+      <section data-transition="fade">
+          <div><h2><strong>DATA CURATION NETWORK</strong></h2></div>
+          <div><h3><strong>Data Curation Workshop</strong></h3></div>
+          <div style="margin: 150px auto auto auto; font-size: 60%; border: 1px black solid; width: 80%">
+            <div style="text-align: left; float: left;">
+              Timothy Norris - <a href="mailto:tnorris@miami.edu" style="text-decoration: underline;">tnorris@miami.edu</a><br>
+              James Sobczac - <a href="mailto:jsobczak@miami.edu" style="text-decoration: underline;">jsobczak@miami.edu</a><br>
+              Cameron Riopelle - <a href="mailto:criopelle@miami.edu" style="text-decoration: underline;">criopelle@miami.edu</a>
+              <br><br>University of Miami Libraries - July 2 2019
+            </div>
+            <div style="text-align: right; float: right; margin-left: 70px;">
+              <a href="https://bit.ly/someurl" style="text-decoration: underline;">https://bit.ly/someurl</a><br><a href="https://github.com/tibbben/dcn-curated"  style="text-decoration: underline;">https://github.com/tibbben/dcn-curated</a>
+            </div>
+          </div>
+      </section>
+
+      <!-- ***
+            * Outline - learning Outcomes
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div class="um-template-title">Learning Outcomes</div>
+              <div class="um-template-element" style="text-align: left;">
+
+                <div style="font-size: 80%; width: 80%; margin: 0px auto 0px auto;">
+                  <ul>
+                    <li><i>Increase understanding of data curation practices and tools in various disciplines, data types, and formats.</i></li>
+                    <li><i>Share expertise and enhance curation capacity for librarians at the University of Miami.</i></li>
+                    <li><i>Meet like-minded colleagues who are interested in building and extending curation practices at UM.</i></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              
+          </div>
+          
+          <div class="um-template-footer"><img src="common/assets/img/dcn_footer.png"></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Value of data
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div class="um-template-title">Research data have value beyond their original purpose, but…</div>
+              <div class="um-template-element" style="text-align: left;">
+
+                <div style="font-size: 80%; width: 80%; margin: 0px auto 0px auto;">
+                  <ul>
+                    <li><i>There is a lot of data.</i></li>
+                    <li><i>Data can be messy and incomprehensible (lack context!)</i></li>
+                    <li><i>Digital file formats are constantly at risk</i></li>
+                    <li><i>Most data never leaves their author’s laptop ⇒ benign neglect</i></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              
+          </div>
+          
+          <div class="um-template-footer"><img src="common/assets/img/dcn_footer.png"></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Sharing Incentives
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div class="um-template-title">Incentives for sharing data strengthen the need for better curation</div>
+              <div class="um-template-element" style="text-align: left;">
+
+                <div style="font-size: 80%; width: 80%; margin: 0px auto 0px auto;">
+                  <ul>
+                      <li><i>Funding mandates</i></li>
+                      <li><i>Publisher data sharing policies (PLoS and Nature)</i></li>
+                      <li><i>Reproducibility => standardized practices around data pipelines and replication studies</i></li>
+                      <li><i>Retraction Watch (stick) and Open Data movement (carrot) helps safeguard against scientific fraud or the dissemination of erroneous results</i></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              
+          </div>
+          
+          <div class="um-template-footer"><img src="common/assets/img/dcn_footer.png"></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Curation deifinition
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div class="um-template-title">What is data curation?</div>
+              <div class="um-template-element" style="text-align: left;">
+
+                <div style="font-size: 100%; width: 60%; margin: 0px auto 0px auto;">
+                  “The encompassing work and actions taken by <b>curators of a data repository</b> in order to provide meaningful and enduring access to data.”
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              Data Curation Network: Data Curation Terms & Activities. <a href="http://hdl.handle.net/11299/188638">http://hdl.handle.net/11299/188638</a>
+          </div>
+          
+          <div class="um-template-footer"><img src="common/assets/img/dcn_footer.png"></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Phil Trans
+            * -->
+      <section data-transition="fade" data-background-image="common/assets/img/1665_phil_trans_vol_i_title.png">
+      </section>
+
+
+
+      <!-- ***
+            * Data Curation Initiative
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>UM Data Curation Initiative</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+              <div class="um-template-title" style="margin-bottom: 72px !important;">The UM Data Curation Initiative</div>
+              <div class="um-template-element">
+                <div style="display: inline-block; font-size: 85%; text-align: left;">
+                  <div style="float: left;">Libraries<br>Office of Research<br>Information Technology<br>Center For Computational Science</div>
+                  <div style="float: left; font-size: 550%; margin: 55px 42px 0 42px; font-family: courier new">}</div>
+                  <div style="float: right; margin-top: 17px; font-size: 90%">Conversation started in 2009<br>CLIR postdoctoral Fellow 2014-16<br>Emerging e-science at UM</div>
+                </div>
+                <div class="fragment" style="display: inline-block; font-size: 85%; font-weight: bold; text-align: left; margin-top: 42px; margin-left: 0px;">
+                  <div style="float: left; margin-right: 23px"><span style="margin-left: 230px; font-size: 200%;">/</span><br>Environmental Scan</div>
+                  <div style="float: right; margin-left: 83px"><span style="margin-left: 0px; font-size: 200%;">\</span><br>Pilot Projects<br>Recommendations</div>
+                </div> 
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- <script>displayFooter(this);</script> -->
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Federal Move
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>UM Data Curation Initiative</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+              <div class="um-template-title" style="margin-bottom: 0px !important;">Federal Movement Towards Open Data</div>
+              <img src="common/assets/img/federalmovement.png" style="max-width: 100% !important;">
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              Adapted from: Whitmire, Amanda L. (2014). Research Data Management Curriculum, Lecture 2: Introduction to Research Data Management. Oregon State University Libraries. <a target="_blank" href="http://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835">http://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835</a>
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Key Observations
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>UM Environmental Scan</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div style="display: inline-block; text-align: left; font-size: 90%; width: 100%">
+
+                <div style="float: left; max-width: 70%">
+                  <div class="um-template-title">UM Environmental Scan (2015)</div>
+                  <div class="um-template-element">
+
+                    <ul style="list-style: none;">
+                      <li>Key Observations</li>
+                      <ul style="font-size: 70%;">
+                        <li><i>Data as research input and output</i></li>
+                        <li><i>Big Data are the exception</i></li>
+                        <li><i>Long-term curation is lacking</i></li>
+                        <li><i>Human resources are a limiting factor</i></li>
+                        <li><i>Data management crosses personal and professional boundaries</i></li>
+                        <li><i>There is a desire to share, but current frameworks are not working</i></li>
+                      </ul>
+                      <li style="margin-top: 23px;">Key Takeaways</li>
+                      <ul style="font-size: 70%;">
+                        <li>UM lacks data norms and guidelines </li>
+                        <li>UM is neither leading nor behind peer institutions</li>
+                        <li>Rescue the future: teach good data management habits</li>
+                        <li style="margin-top: 13px;">Data curation is a social problem, not technical</li>
+                      </ul>
+                    </ul>
+
+                  </div>
+                </div>
+
+                <div style="float: right;">
+                  <img src="common/assets/img/hand.jpg">
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+              Norris, T. and S. Shreeves (2017). <i>University of Miami Data Curation Initiative: Report and Recommendations</i>. University of Miami Libraries.
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * What?!
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>UM Environmental Scan</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content" style="max-width: 70%;">
+
+              <div class="um-template-element" style="display: inline-block;">
+
+                <div style="font-size: 800%; text-align: center;">!?</div>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * Data Curation Network Services
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>Tangible Actions</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content" style="max-width: 95% !important;">
+
+              <div class="um-template-title">Data Curation Network - Mnemonic for Curation</div>
+              <div class="um-template-element" style="font-size: 85%;">
+                <div style="text-align: left; margin: 0px auto 0px auto !important; display: inline-block; line-height: 200%">
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">C</span><b>Check</b><span style="color: #999;"> files and read documentation </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(risk mitigation, file inventory, appraisal/selection)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">U</span><b>Understand</b><span style="color: #999;"> the data, or try to ... </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(run files/environment, QA/QC issues, readmes)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">R</span><b>Request</b><span style="color: #999;"> missing information or changes </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(tracking provenance of processes and changes)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">A</span><b>Augment</b><span style="color: #999;"> metadata for findability </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(DOIs, metadata standards, discoverability)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">T</span><b>Transform</b><span style="color: #999;"> file formats for reuse </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(data preservation, conversion tools, data viz)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">E</span><b>Evaluate</b><span style="color: #999;"> for FAIRness </span><span style="margin-left: 23px; color: #999; font-size: 90%;">(licenses, responsibility standarads, metrics for tracking)</span><br>
+                  <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">D</span><b>Document</b><span style="color: #999;"> the curation process</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+            Data Curation Network (2018). "Checklist of CURATED Steps Performed by the Data Curation Network." <a href="https://datacurationnetowrk.org" target="_blank">https://datacurationnetowrk.org</a>
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            *  Fair Data
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>Tangible Actions</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div style="display: inline-block; text-align: left; font-size: 90%; width: 100%">
+
+                <div style="float: left;">
+                  <div class="um-template-title" style="margin-bottom: 23px !important;">FAIR Data</div>
+                  <div class="um-template-element" style="font-size: 80%;">
+                    <div style="text-align: left; margin: 0px auto 0px auto !important; display: inline-block; line-height: 200%">
+                      <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">F</span><b>Findable</b> <span style="margin-left: 23px; color: #999; font-size: 90%;">rich metadata with assigned DOI</span><br>
+                      <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">A</span><b>Accessible</b> <span style="margin-left: 23px; color: #999; font-size: 90%;">Metadata and data available across open protocols</span><br>
+                      <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">I</span><b>Interoperable</b> <span style="margin-left: 23px; color: #999; font-size: 90%;">Data and metadata represented with standard or easily understood data structures</span><br>
+                      <span style="font-size: 180%; font-weight: bold; margin-right: 42px; vertical-align: -6px;">R</span><b>Reusable</b> <span style="margin-left: 23px; color: #999; font-size: 90%;">metadata includes provenance and uses community accepted descriptions</span><br>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div style="margin-top: 15px !important; font-size: 50%; line-height: 115% !important; text-align: left; color: #aaa;">
+                <img src="common/assets/img/603334-digital-world_hz.jpg">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+            Wilkinson, M. D., M. Dumontier, I. J. Aalbersberg, G. Appleton, M. Axton, A. Baak, N. Blomberg, J.-W. Boiten, L. B. da Silva Santos, P. E. Bourne, J. Bouwman, A. J. Brookes, T. Clark, M. Crosas, I. Dillo, O. Dumon, S. Edmunds, C. T. Evelo, R. Finkers, A. Gonzalez-Beltran, A. J. G. Gray, P. Groth, C. Goble, J. S. Grethe, J. Heringa, P. A. C. ’t Hoen, R. Hooft, T. Kuhn, R. Kok, J. Kok, S. J. Lusher, M. E. Martone, A. Mons, A. L. Packer, B. Persson, P. Rocca-Serra, M. Roos, R. van Schaik, S.-A. Sansone, E. Schultes, T. Sengstag, T. Slater, G. Strawn, M. A. Swertz, M. Thompson, J. van der Lei, E. van Mulligen, J. Velterop, A. Waagmeester, P. Wittenburg, K. Wolstencroft, J. Zhao and B. Mons (2016). The FAIR Guiding Principles for scientific data management and stewardship. <i>Scientific Data</i>, 3, 160018. doi: <a href="https://doi.org/10.1038/sdata.2016.18">10.1038/sdata.2016.18</a>.
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            * The Data Revolution
+            * -->
+      <section data-transition="fade">
+        <div class="um-template-container">
+          <div class="um-template-header"><span>Data Science and the Way Forward</span><br><table width=100%><tr><td background="common/assets/img/grey_bar.jpg" width=100%></td></tr></table></div>
+          <div class="um-template-content-containter">
+
+            <div class="um-template-content">
+
+              <div style="display: inline-block; text-align: left; font-size: 75%; width: 100%">
+
+                <div>
+                  "It is an unfortunate accident of history that the term <i>datum</i> ... rather than <i>captum</i> ... should have come to symbolize the unit-phenomenon in science. For science deals, not with 'that which has been given' by nature to the scientist, but with 'that which has been taken' or selected from nature by the scientist in accordance with his [sic] purpose." (Kitchin 2014, p. 2)
+                </div>
+
+                <div style="margin-top: 50px; text-align: center;">
+                  <img src="common/assets/img/dataRevolutionHeader.jpg" style="max-width: 80%;">
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="um-template-citation">
+            Cited in Kitchin, R. (2014). <i>The Data Revolution</i>. Washington DC: SAGE from Jensen. H.E. (1950). 'Editorial Note' in H. Becker (1952). <i>Through Values to Social Interpretation</i>. Duke University Press, Durham, pp. ix.
+          </div>
+          
+          <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
+       </div>
+      </section>
+
+      <!-- ***
+            *  Thanks
+            * -->
+      <section>
+        <div style="margin-left: 70px !important; font-size: 80%; text-align: left;">
+          <div class="um-template-title" style="text-align: left !important;">Thanks!</div>
+          <!-- <div style="margin-bottom: 200px; font-size: 90%">
+            Timothy B Norris<br>
+            <a href="mailto:tnorris@miami.edu" style="color: black !important;">tnorris@miami.edu</a>
+          </div> -->
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <script src="common/java/reveal.js"></script>
+	<script src="common/java/notes.js"></script>
+  <script src="common/java/head.min.js"></script>
+  <script>
+    Reveal.initialize({
+        width: 1366, height: 768, margin: 0.05,
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        mouseWheel: false,
+        chart: {
+          defaults: { 
+            global: { 
+              defaultFontSize: 20,
+              title: { fontColor: "#333" }, 
+              legend: {
+                position: "top",
+                labels: { fontColor: "#333" },
+              },
+              tooltips: {
+                labels: { fontColor: "#333" },
+              },
+            }, 
+            scale: { 
+              scaleLabel: { fontColor: "#333" }, 
+              gridLines: { color: "#333", zeroLineColor: "#333" }, 
+              ticks: { fontColor: "#333" }, 
+            } 
+          },
+        },
+        dependencies: [
+            { src: 'common/java/Chart.min.js' },
+            { src: 'common/java/csv2chart.js' }
+        ] 
+    });
+  </script>
+</body>
+</html>
