@@ -2,7 +2,7 @@
 
 This repository contains a presentation the DCN CURATED acronym. Best practices and basic workflows for data curation in an academic context.
 
-For the actual presentation, plesae see the [hosted version](https://tibbben.github.io/dcn-curated).
+For the actual presentation, please see the [hosted version](https://tibbben.github.io/dcn-curated).
 
 ---
 
