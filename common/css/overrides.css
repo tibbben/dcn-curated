@@ -1,5 +1,5 @@
 img {
-   /* max-height: 70% !important; 
+   /* max-height: 70% !important;
    max-width: 70% !important; */
    border: none !important;
    box-shadow: none !important;
@@ -25,7 +25,7 @@ section {
 	color: #727272;
   }
   #main {
-	  width: 100% !important; 
+	  width: 100% !important;
 	  max-width: 100% !important;
   }
 }
@@ -56,6 +56,9 @@ section {
 .um-template-content {
   max-width: 75%; margin: 0px auto 0px auto !important; font-size: 80% !important; line-height: 120% !important; position: relative; top: 50%; transform: translateY(-50%);
 }
+.um-template-content-jes {
+  max-width: 100%; margin: 0px auto 0px auto !important; font-size: 80% !important; line-height: 120% !important; position: relative; top: 50%; transform: translateY(-50%);
+}
 .um-template-content img {
   max-height: 500px;
 }
@@ -80,4 +83,3 @@ section {
 .um-template-footer td {
   background-size: 100% 96px;
 }
-
