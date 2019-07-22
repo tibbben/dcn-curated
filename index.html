@@ -678,7 +678,79 @@
             <div class="um-template-content">
 
               <div class="um-template-title">DCN Researcher Study 2018 (n=91)</div>
-              <img src="common/assets/img/curationimportant.png">
+                <div style="width: 90%;">
+                <canvas data-chart="bar" height=420 width=1000>        
+                  <!--
+                   {
+                   "data": {
+                    "labels": ["1.0 - 1.5","1.5 - 2.0","2.0 - 2.5","2.5 - 3.0","3.0 - 3.5","3.5 - 4.0","4.0 - 4.5", "4.5 - 5.0"],
+                    "datasets": [
+                     {
+                      "data": [0,0,0,4,9,12,8,2],
+                      "label": "DC Activities",
+                      "borderColor": "#222",
+                      "backgroundColor":"#ddd",
+                      "borderWidth": 1
+                     }
+                    ]
+                   },
+                   "options": { 
+                    "responsive": "true", 
+                    "mantainAspectRatio": "false",
+                    "title": { 
+                     "display": "true",
+                     "fontSize": 24,
+                     "fontColor": "#222",
+                     "text": "Data Curation Activities: Average Researcher Ratings of Importance", 
+                     "padding": 30
+                    }, 
+                    "legend": { 
+                     "position": "bottom", 
+                     "labels": { 
+                       "boxWidth": 13,
+                       "fontSize": 16
+                      }
+                     },
+                     "tooltips": {
+                     "labels": { "fontColor": "#333" }
+                    },
+                      "scales": {
+                       "yAxes": [{
+                        "id": "y-axis-1",
+                        "display": "true",
+                        "position": "left",
+                        "gridLines": {
+                         "color": "#fff",
+                         "zeroLineColor": "#222"
+                        },
+                        "ticks": {
+                         "fontSize": 16
+                        },
+                        "scaleLabel": {
+                         "display": "true",
+                         "labelString": "Count of DC Activities (n=35)",
+                         "fontColor": "#222",
+                         "fontSize": 16
+                        }
+                       }],
+                       "xAxes": [{
+                        "id": "x-axis-1",
+                        "display": "true",
+                        "gridLines": {
+                         "color": "#fff",
+                         "zeroLineColor": "#222"
+                        },
+                        "ticks": {
+                         "fontSize": 16
+                        }
+                       }]
+                      } 
+                     }
+                    }
+                  -->
+                </canvas>
+              </div>
+              <!-- <img src="common/assets/img/curationimportant.png"> -->
 
             </div>
 
@@ -690,12 +762,12 @@
 
           <div class="um-template-footer"><img src="common/assets/img/dcn_footer.png"></div>
        </div>
-       <div style="position: absolute; top: 475px; right: 30px; color: red; font-size: 60%">
-        <object data="common/assets/svg/arrow_up_left.svg" type="image/svg+xml" style="margin-left: -200px;"></object><br>
+       <div style="position: absolute; top: 325px; right: 120px; color: red; font-size: 60%" class="fragment" data-fragment-index=1>
         Documentation<br>
-        Chain of custody
+        Chain of custody<br>
+        <object data="common/assets/svg/arrow_up_left.svg" type="image/svg+xml" style="margin-left: -200px; margin-top: 9px;"></object>
        </div>
-       <div style="position: absolute; top: 208px; left: 315px; color: red; font-size: 60%; text-align: left;">
+       <div style="position: absolute; top: 212px; left: 315px; color: red; font-size: 60%; text-align: left;" class="fragment" data-fragment-index=1 >
         Emulation<br>
         Restricted Access<br>
         Contact Information<br>
@@ -1015,7 +1087,7 @@
           </div>
 
           <div class="um-template-citation">
-            Data Curation Network (2018). "Checklist of CURATED Steps Performed by the Data Curation Network." <a href="https://datacurationnetowrk.org" target="_blank">https://datacurationnetowrk.org</a>
+            Data Curation Network (2018). "Checklist of CURATED Steps Performed by the Data Curation Network." <a href="https://datacurationnetwork.org" target="_blank">https://datacurationnetwork.org</a>
           </div>
 
           <div class="um-template-footer"><table width=100%><tr><td background="common/assets/img/UM.jpg" height=80 width=98></td><td background="common/assets/img/bar.jpg"></td><td width=60></td></tr></table></div>
